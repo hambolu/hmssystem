@@ -9,11 +9,11 @@
   <title>Medlog</title>
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{{ asset('/plugins/fontawesome-free/css/all.mi }}n.css')}}">
+  <link rel="stylesheet" href="{{ asset('/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- IonIcons -->
   <!-- Theme style -->
   <link rel="stylesheet" href="{{ asset('/dist/css/adminlte.min.css')}}">
-  <link rel="stylesheet" href="{{ asset('/dist/css/inde }}x.css')}}">
+  <link rel="stylesheet" href="{{ asset('/dist/css/index.css')}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
   <!-- Google Font: Source Sans Pro -->
@@ -405,7 +405,7 @@ to get the desired effect
 <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
 <!-- jQuery -->
-<script src="{{ asset('/plugins/jquery/jquery.m }}in.js')}}"></script>
+<script src="{{ asset('/plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap -->
 <script src="{{ asset('/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- AdminLTE -->
