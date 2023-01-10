@@ -67,17 +67,17 @@
                     <br/><br/>
                   Invoice
                 </a>
-                <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
+                <a href="{{url('labtech')}}" class="btn btn-squared-default bg-dark">
                 <i class=" fad fa-flask 	fa-5x"></i>
                     <br/><br/>
                   LabTech
                 </a>
-                <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
+                <a href="{{url('frontdesk')}}" class="btn btn-squared-default bg-dark">
                     <i class=" fa fa-desktop 	fa-5x"></i>
                         <br/><br/>
                       FrontDesk
                 </a>
-                <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
+                <a href="{{url('phamarcy')}}" class="btn btn-squared-default bg-dark">
                     <i class=" fas fa-tablets 	fa-5x"></i>
                         <br/><br/>
                         Phamarcy
