@@ -9,10 +9,10 @@
   <title>Medlog</title>
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="{{ asset('/plugins/fontawesome-free/css/all.min.css') }}">
   <!-- IonIcons -->
   <!-- Theme style -->
-  <link rel="stylesheet" href="/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="{{ asset('/dist/css/adminlte.min.css') }}">
   <!-- Google Font: Source Sans Pro -->
 </head>
 <style>
@@ -52,7 +52,7 @@ to get the desired effect
       <!-- <li class="nav-item d-none d-sm-inline-block">
         <a href="#" class="nav-link">Contact</a>
       </li> -->
-      
+
     </ul>
 
     <!-- SEARCH FORM -->
@@ -78,7 +78,7 @@ to get the desired effect
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-   
+
 
     <!-- Sidebar -->
     <div class="sidebar">
@@ -100,12 +100,12 @@ to get the desired effect
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <!-- <li class="nav-item has-treeview menu-open"> -->
-      
-         
-         
-        
-           
-      
+
+
+
+
+
+
           <!-- <li class="nav-header">EXAMPLES</li> -->
           <li class="nav-item has-treeview ">
           <a href="{{route('accountant')}}" class="nav-link ">
@@ -131,7 +131,7 @@ to get the desired effect
             </a>
             </li>
             <li class="nav-item has-treeview">
-            
+
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-book"></i>
               <p>
@@ -172,18 +172,18 @@ to get the desired effect
               </li>
             </ul>
           </li>
-         
+
             <li class="nav-item">
             <a href="{{url('noticeboard')}}" class="nav-link">
               <i class="nav-icon fa fa-columns"></i>
               <p>
                 Notice Board
-            
+
               </p>
             </a>
             </li>
-         
-      
+
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon far fa-plus-square"></i>
@@ -211,7 +211,7 @@ to get the desired effect
                   <p>Forgot Password</p>
                 </a>
               </li>
-              
+
               <li class="nav-item">
                 <!-- <a href="pages/examples/forgot-password.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
@@ -228,11 +228,11 @@ to get the desired effect
                                                      document.getElementById('logout-form').submit();">
                                                       <i class="far fa-circle nav-icon"></i>
                   <p> {{ __('Logout') }}</p>
-                                       
+
                                     </a>
                                     <!-- <a class="dropdown-item" href="{{ route('changepassword') }}" >Change Password</a> -->
-                                     
-                                  
+
+
 
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
@@ -242,7 +242,7 @@ to get the desired effect
               </li>
             </ul>
           </li>
-     
+
       </nav>
       <!-- /.sidebar-menu -->
     </div>
@@ -259,11 +259,11 @@ to get the desired effect
             <h3 class="m-0 text-dark">Accountant Dashboard</h3>
           </div><!-- /.col -->
           <div class="col-sm-6 text-center"  >
-          <div class="float-right fordisplayuser"> 
+          {{-- <div class="float-right fordisplayuser">
           Patient <div class="elementuser" style="color:red;">{{$patkey}}</div>
-          </div>
+          </div> --}}
           </div><!-- /.col -->
-       
+
         </div><!-- /.row -->
       </div><!-- /.container-fluid -->
     </div>
@@ -297,15 +297,15 @@ to get the desired effect
 <!-- REQUIRED SCRIPTS -->
 
 <!-- jQuery -->
-<script src="/plugins/jquery/jquery.min.js"></script>
+<script src="{{ asset('/plugins/jquery/jquery.min.js') }}"></script>
 <!-- Bootstrap -->
-<script src="/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ asset('/plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- AdminLTE -->
-<script src="/dist/js/adminlte.js"></script>
+<script src="{{ asset('/dist/js/adminlte.js') }}"></script>
 
 <!-- OPTIONAL SCRIPTS -->
-<script src="/plugins/chart.js/Chart.min.js"></script>
-<script src="/dist/js/demo.js"></script>
-<script src="/dist/js/pages/dashboard3.js"></script>
+<script src="{{ asset('/plugins/chart.js/Chart.min.js') }}"></script>
+<script src="{{ asset('/dist/js/demo.js') }}"></script>
+<script src="{{ asset('/dist/js/pages/dashboard3.js') }}"></script>
 </body>
 </html>

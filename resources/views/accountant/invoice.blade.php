@@ -13,7 +13,7 @@ $(document).ready(function(){
     $(this).css('color','#447293');
     $("#show").css('background','#2874A6');
     $("#show").css('color','#f7f7f7');
-    // $("#show").css("border", "black solid 1px"); 
+    // $("#show").css("border", "black solid 1px");
   });
   $("#show").click(function(){
     $("#displayrecord").hide();
@@ -22,7 +22,7 @@ $(document).ready(function(){
     $(this).css('color','#447293');
     $("#hide").css('background','#2874A6');//onclick color change
     $("#hide").css('color','white');
-    // $("#hide").css("border", "#343A40 solid 1px"); 
+    // $("#hide").css("border", "#343A40 solid 1px");
   });
 });
 </script>
@@ -122,7 +122,7 @@ body{
                                 <option value="0" selected disabled> -- Select One --</option>
                                     @foreach ($pat_data as $patient)
                                         <option value="({{$patient->id}}) {{ $patient->name }}"  {{ (isset($patient->id) || old('id')) }}>({{$patient->id}}) {{ $patient->name }} </option>
-                                    @endforeach 
+                                    @endforeach
                                     <input type="hidden" id="email" class="form-control" name="email" value="{{ $patient->email }}">
                                </select>
                                </div>
@@ -177,7 +177,7 @@ body{
 
             </div>
         </div>
-    
+
 
 </main>
 
@@ -218,12 +218,18 @@ body{
       <td>{{$data->created_at->diffForHumans()}}</td>
       <td><a href="{{action('AdminInvoiceController@downloadPDF',$data->id)}}">PDF Invoice</a></td>
       <td>{{$data->confirmation}}</td>
-      <td>{{link_to_route('admin_invoice_show.edit','',[$data->id],['class'=>'fas fa-edit btn btn-success'])}}</td>
-                       <td>
-                        {!! Form::open(array('route'=>['admin_invoice_show.destroy',$data->id],'method'=>'DELETE')) !!}
-                        {!! Form::button('',['type'=>'submit','class'=>'fas fa-trash-alt btn btn-danger']) !!}
-                        {!! Form::close() !!}
-                        </td>
+      <td>
+        <a href="/admin_invoice_show/{{ $data->id }}/edit">edit</a>
+      </td>
+    <td>
+    <form action="/admin_invoice_show/{{ $data->id }}" method="post">
+        @csrf
+        @method('DELETE')
+        <input type="submit" value="Delete" class="fas fa-trash-alt btn btn-danger">
+    </form>
+
+    </td>
+      
     </tr>
    @endforeach
   </tbody>

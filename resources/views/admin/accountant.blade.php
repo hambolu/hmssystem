@@ -13,7 +13,7 @@ $(document).ready(function(){
     $(this).css('color','#447293');
     $("#show").css('background','#2874A6');
     $("#show").css('color','#f7f7f7');
-    // $("#show").css("border", "black solid 1px"); 
+    // $("#show").css("border", "black solid 1px");
   });
   $("#show").click(function(){
     $("#displayrecord").hide();
@@ -22,7 +22,7 @@ $(document).ready(function(){
     $(this).css('color','#447293');
     $("#hide").css('background','#2874A6');//onclick color change
     $("#hide").css('color','white');
-    // $("#hide").css("border", "#343A40 solid 1px"); 
+    // $("#hide").css("border", "#343A40 solid 1px");
   });
 });
 </script>
@@ -129,7 +129,7 @@ body{
                                     <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                     </span>
-                                    @enderror                                    
+                                    @enderror
                                     </div>
                                 </div>
 
@@ -160,7 +160,7 @@ body{
                                     </div>
                                 </div>
 
-                               
+
 
                                     <div class="col-md-6 offset-md-4">
                                         <button type="submit" class="btn btn-primary">
@@ -176,7 +176,7 @@ body{
 
             </div>
         </div>
-    
+
 
 </main>
 
@@ -186,13 +186,13 @@ body{
 <table class="table table-bordered table-hover">
   <thead class="thead-light">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">Image</th>
-      <th scope="col">Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">Address</th>
-      <th scope="col">Contact Number</th>
-      <th scope="col">Date of Creation</th>
+      <th>#</th>
+      <th>Image</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>Contact Number</th>
+      <th>Date of Creation</th>
       <th colspan='2'>Options</th>
     </tr>
   </thead>
@@ -206,12 +206,18 @@ body{
       <td>{{$data->address}}</td>
       <td>{{$data->contact_no}}</td>
       <td>{{$data->created_at->diffForHumans()}}</td>
-      <td>{{link_to_route('admin_accountant_show.edit','',[$data->id],['class'=>'fas fa-edit btn btn-success'])}}</td>
-                       <td>
-                        {!! Form::open(array('route'=>['admin_accountant_show.destroy',$data->id],'method'=>'DELETE')) !!}
-                        {!! Form::button('',['type'=>'submit','class'=>'fas fa-trash-alt btn btn-danger']) !!}
-                        {!! Form::close() !!}
-                        </td>
+      <td>
+        <a href="/admin_accountant_show/{{ $data->id }}/edit">edit</a>
+      </td>
+    <td>
+    <form action="admin_accountant_show/{{ $data->id }}" method="post">
+        @csrf
+        @method('DELETE')
+        <input type="submit" value="Delete" class="fas fa-trash-alt btn btn-danger">
+    </form>
+
+    </td>
+      
     </tr>
    @endforeach
   </tbody>

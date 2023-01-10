@@ -13,7 +13,7 @@ $(document).ready(function(){
     $(this).css('color','#447293');
     $("#show").css('background','#2874A6');
     $("#show").css('color','#f7f7f7');
-    // $("#show").css("border", "black solid 1px"); 
+    // $("#show").css("border", "black solid 1px");
   });
   $("#show").click(function(){
     $("#displayrecord").hide();
@@ -22,7 +22,7 @@ $(document).ready(function(){
     $(this).css('color','#447293');
     $("#hide").css('background','#2874A6');//onclick color change
     $("#hide").css('color','white');
-    // $("#hide").css("border", "#343A40 solid 1px"); 
+    // $("#hide").css("border", "#343A40 solid 1px");
   });
 });
 </script>
@@ -120,7 +120,7 @@ body{
                                     </div>
                                 </div>
 
-                               
+
                                 <div class="form-group row">
                                     <label for="note" class="col-md-4 col-form-label text-md-right">Note</label>
                                     <div class="col-md-6">
@@ -152,7 +152,7 @@ body{
 
             </div>
         </div>
-    
+
 
 </main>
 
@@ -176,12 +176,19 @@ body{
       <td>{{$data->title}}</td>
       <td>{{$data->notice}}</td>
       <td>{{$data->date}}</td>
-      <td>{{link_to_route('noticeboard.edit','',[$data->id],['class'=>'fas fa-edit btn btn-success'])}}</td>
-                       <td>
-                        {!! Form::open(array('route'=>['noticeboard.destroy',$data->id],'method'=>'DELETE')) !!}
-                        {!! Form::button('',['type'=>'submit','class'=>'fas fa-trash-alt btn btn-danger']) !!}
-                        {!! Form::close() !!}
-                        </td>
+      
+
+                    <td>
+                        <a href="/noticeboard/{{ $data->id }}/edit">edit</a>
+                      </td>
+                    <td>
+                    <form action="/noticeboard/{{ $data->id }}" method="post">
+                        @csrf
+                        @method('DELETE')
+                        <input type="submit" value="Delete" class="fas fa-trash-alt btn btn-danger">
+                    </form>
+
+                    </td>
     </tr>
    @endforeach
   </tbody>
@@ -200,5 +207,5 @@ body{
                   text-align: center;
                 }
           </style>
-        
+
 @endsection
