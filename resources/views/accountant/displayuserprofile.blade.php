@@ -7,16 +7,16 @@
     }
     li {
         margin-bottom:10px;
-        
+
     }
 </style>
 
 <div class="container">
-@foreach ($user as $da) 
+@foreach ($user as $da)
                 <div class="jumbotron">
                   <div class="row">
                       <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
-                          <img src="/img/{{Auth::user()->avatar}}" alt="stack photo" class="img">
+                          <img src="public/img/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}" class="img">
                       </div>
                       <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8">
                           <div class="container" style="border-bottom:1px solid black">
