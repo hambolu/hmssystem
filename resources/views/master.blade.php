@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="{{ asset('/plugins/fontawesome-free/css/all.mi }}n.css')}}">
   <!-- IonIcons -->
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ asset('/dist/css/adminlte.mi }}n.css')}}">
+  <link rel="stylesheet" href="{{ asset('/dist/css/adminlte.min.css')}}">
   <link rel="stylesheet" href="{{ asset('/dist/css/inde }}x.css')}}">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css">
