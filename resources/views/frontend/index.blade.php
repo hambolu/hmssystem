@@ -1,7 +1,7 @@
 @extends('frontend.header_footer')
 @section('headerfooter')
 <section class="home-slider owl-carousel">
-      <div class="slider-item" style="background-image:url(images/bg_1.jpg);" data-stellar-background-ratio="0.5">
+      <div class="slider-item" style="background-image:url(public/images/bg_1.jpg);" data-stellar-background-ratio="0.5">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <div class="slider-item" style="background-image:url(images/bg_2.jpg);">
+      <div class="slider-item" style="background-image:url(public/images/bg_2.jpg);">
       	<div class="overlay"></div>
         <div class="container">
           <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
@@ -38,7 +38,7 @@
                 <h3 class="heading">Qualitfied Doctors</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block text-center">
@@ -49,7 +49,7 @@
                 <h3 class="heading">Emergency Care</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-            </div>    
+            </div>
           </div>
           <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block text-center">
@@ -60,7 +60,7 @@
                 <h3 class="heading">Outdoor Checkup</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-            </div>      
+            </div>
           </div>
           <div class="col-md-3 d-flex services align-self-stretch p-4 ftco-animate">
             <div class="media block-6 d-block text-center">
@@ -71,16 +71,16 @@
                 <h3 class="heading">24 Hours Service</h3>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
               </div>
-            </div>      
+            </div>
           </div>
         </div>
 			</div>
 		</section>
-		
+
 		<section class="ftco-section ftco-no-pt ftc-no-pb">
 			<div class="container">
 				<div class="row no-gutters">
-					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(images/about.jpg);">
+					<div class="col-md-5 p-md-5 img img-2 mt-5 mt-md-0" style="background-image: url(public/images/about.jpg);">
 					</div>
 					<div class="col-md-7 wrap-about py-4 py-md-5 ftco-animate">
 	          <div class="heading-section mb-5">
@@ -97,7 +97,7 @@
 										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-first-aid-kit"></span></div>
 										<div class="text">
 											<h3>Primary Care</h3>
-											<p>Primary care is the day-to-day healthcare given by a health care provider. 
+											<p>Primary care is the day-to-day healthcare given by a health care provider.
 											Typically this provider acts as the first contact and principal point of continuing care for patients within a healthcare system.</p>
 										</div>
 									</div>
@@ -107,9 +107,9 @@
 										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-dropper"></span></div>
 										<div class="text">
 											<h3>Lab Test</h3>
-											<p>Laboratory screening tests of blood, urine, 
+											<p>Laboratory screening tests of blood, urine,
 											or other body fluids may help doctors diagnose disease, understand disease severity,
-											 and monitor levels of therapeutic drugs. Certain tests, 
+											 and monitor levels of therapeutic drugs. Certain tests,
 											 ordered by the physician as part of a regular check-up, provide general information,
 											  while others are used to identify specific health concerns.
 
@@ -134,7 +134,7 @@
 										<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-heart-rate"></span></div>
 										<div class="text">
 											<h3>Heart Rate</h3>
-											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally, 
+											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally,
 											a lower heart rate at rest implies more efficient heart function and better cardiovascular fitness.
 
 </p>
@@ -147,8 +147,8 @@
 				</div>
 			</div>
 		</section>
-		
-		<section class="ftco-intro" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+
+		<section class="ftco-intro" style="background-image: url(public/images/bg_3.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -189,13 +189,13 @@
 	            </div>
 	          </div>
 	          <div class="col-md-12 tab-wrap">
-	            
+
 	            <div class="tab-content bg-light p-4 p-md-5 ftco-animate" id="v-pills-tabContent">
 
 	              <div class="tab-pane py-2 fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="day-1-tab">
 	              	<div class="row departments">
 	              		<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-	              			<div class="img d-flex align-self-stretch" style="background-image: url(images/dept-1.jpg);"></div>
+	              			<div class="img d-flex align-self-stretch" style="background-image: url(public/images/dept-1.jpg);"></div>
 	              		</div>
 	              		<div class="col-lg-8">
 	              			<h2>Neurological Deparments</h2>
@@ -206,7 +206,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-first-aid-kit"></span></div>
 														<div class="text">
 																										<h3>Primary Care</h3>
-											<p>Primary care is the day-to-day healthcare given by a health care provider. 
+											<p>Primary care is the day-to-day healthcare given by a health care provider.
 											Typically this provider acts as the first contact and principal point of continuing care for patients within a healthcare system.</p>
 
 														</div>
@@ -217,9 +217,9 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-dropper"></span></div>
 														<div class="text">
 															<h3>Lab Test</h3>
-											<p>Laboratory screening tests of blood, urine, 
+											<p>Laboratory screening tests of blood, urine,
 											or other body fluids may help doctors diagnose disease, understand disease severity,
-											 and monitor levels of therapeutic drugs. Certain tests, 
+											 and monitor levels of therapeutic drugs. Certain tests,
 											 ordered by the physician as part of a regular check-up, provide general information,
 											  while others are used to identify specific health concerns.
 
@@ -244,7 +244,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-heart-rate"></span></div>
 														<div class="text">
 															<h3>Heart Rate</h3>
-											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally, 
+											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally,
 											a lower heart rate at rest implies more efficient heart function and better cardiovascular fitness.
 
 </p>
@@ -259,7 +259,7 @@
 	              <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-day-2-tab">
 	              	<div class="row departments">
 	              		<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-	              			<div class="img d-flex align-self-stretch" style="background-image: url(images/dept-2.jpg);"></div>
+	              			<div class="img d-flex align-self-stretch" style="background-image: url(public/images/dept-2.jpg);"></div>
 	              		</div>
 	              		<div class="col-md-8">
 	              			<h2>Surgical Deparments</h2>
@@ -270,7 +270,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-first-aid-kit"></span></div>
 														<div class="text">
 																										<h3>Primary Care</h3>
-											<p>Primary care is the day-to-day healthcare given by a health care provider. 
+											<p>Primary care is the day-to-day healthcare given by a health care provider.
 											Typically this provider acts as the first contact and principal point of continuing care for patients within a healthcare system.</p>
 
 														</div>
@@ -281,9 +281,9 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-dropper"></span></div>
 														<div class="text">
 															<h3>Lab Test</h3>
-											<p>Laboratory screening tests of blood, urine, 
+											<p>Laboratory screening tests of blood, urine,
 											or other body fluids may help doctors diagnose disease, understand disease severity,
-											 and monitor levels of therapeutic drugs. Certain tests, 
+											 and monitor levels of therapeutic drugs. Certain tests,
 											 ordered by the physician as part of a regular check-up, provide general information,
 											  while others are used to identify specific health concerns.
 
@@ -308,7 +308,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-heart-rate"></span></div>
 														<div class="text">
 															<h3>Heart Rate</h3>
-											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally, 
+											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally,
 											a lower heart rate at rest implies more efficient heart function and better cardiovascular fitness.
 
 </p>
@@ -322,7 +322,7 @@
 	              <div class="tab-pane fade" id="v-pills-3" role="tabpanel" aria-labelledby="v-pills-day-3-tab">
 	              	<div class="row departments">
 	              		<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-	              			<div class="img d-flex align-self-stretch" style="background-image: url(images/dept-3.jpg);"></div>
+	              			<div class="img d-flex align-self-stretch" style="background-image: url(public/images/dept-3.jpg);"></div>
 	              		</div>
 	              		<div class="col-md-8">
 	              			<h2>Dental Deparments</h2>
@@ -333,7 +333,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-first-aid-kit"></span></div>
 														<div class="text">
 																										<h3>Primary Care</h3>
-											<p>Primary care is the day-to-day healthcare given by a health care provider. 
+											<p>Primary care is the day-to-day healthcare given by a health care provider.
 											Typically this provider acts as the first contact and principal point of continuing care for patients within a healthcare system.</p>
 
 														</div>
@@ -344,9 +344,9 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-dropper"></span></div>
 														<div class="text">
 															<h3>Lab Test</h3>
-											<p>Laboratory screening tests of blood, urine, 
+											<p>Laboratory screening tests of blood, urine,
 											or other body fluids may help doctors diagnose disease, understand disease severity,
-											 and monitor levels of therapeutic drugs. Certain tests, 
+											 and monitor levels of therapeutic drugs. Certain tests,
 											 ordered by the physician as part of a regular check-up, provide general information,
 											  while others are used to identify specific health concerns.
 
@@ -371,7 +371,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-heart-rate"></span></div>
 														<div class="text">
 															<h3>Heart Rate</h3>
-											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally, 
+											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally,
 											a lower heart rate at rest implies more efficient heart function and better cardiovascular fitness.
 
 </p>
@@ -386,7 +386,7 @@
 	              <div class="tab-pane fade" id="v-pills-4" role="tabpanel" aria-labelledby="v-pills-day-4-tab">
 	              	<div class="row departments">
 	              		<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-	              			<div class="img d-flex align-self-stretch" style="background-image: url(images/dept-4.jpg);"></div>
+	              			<div class="img d-flex align-self-stretch" style="background-image: url(public/images/dept-4.jpg);"></div>
 	              		</div>
 	              		<div class="col-md-8">
 	              			<h2>Ophthalmology Deparments</h2>
@@ -397,7 +397,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-first-aid-kit"></span></div>
 														<div class="text">
 																										<h3>Primary Care</h3>
-											<p>Primary care is the day-to-day healthcare given by a health care provider. 
+											<p>Primary care is the day-to-day healthcare given by a health care provider.
 											Typically this provider acts as the first contact and principal point of continuing care for patients within a healthcare system.</p>
 
 														</div>
@@ -408,9 +408,9 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-dropper"></span></div>
 														<div class="text">
 															<h3>Lab Test</h3>
-											<p>Laboratory screening tests of blood, urine, 
+											<p>Laboratory screening tests of blood, urine,
 											or other body fluids may help doctors diagnose disease, understand disease severity,
-											 and monitor levels of therapeutic drugs. Certain tests, 
+											 and monitor levels of therapeutic drugs. Certain tests,
 											 ordered by the physician as part of a regular check-up, provide general information,
 											  while others are used to identify specific health concerns.
 
@@ -435,7 +435,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-heart-rate"></span></div>
 														<div class="text">
 															<h3>Heart Rate</h3>
-											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally, 
+											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally,
 											a lower heart rate at rest implies more efficient heart function and better cardiovascular fitness.
 
 </p>
@@ -450,7 +450,7 @@
 	              <div class="tab-pane fade" id="v-pills-5" role="tabpanel" aria-labelledby="v-pills-day-5-tab">
 	              	<div class="row departments">
 	              		<div class="col-lg-4 order-lg-last d-flex align-items-stretch">
-	              			<div class="img d-flex align-self-stretch" style="background-image: url(images/dept-5.jpg);"></div>
+	              			<div class="img d-flex align-self-stretch" style="background-image: url(public/images/dept-5.jpg);"></div>
 	              		</div>
 	              		<div class="col-md-8">
 	              			<h2>Cardiology Deparments</h2>
@@ -461,7 +461,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-idea"></span></div>
 														<div class="text">
 																										<h3>Primary Care</h3>
-											<p>Primary care is the day-to-day healthcare given by a health care provider. 
+											<p>Primary care is the day-to-day healthcare given by a health care provider.
 											Typically this provider acts as the first contact and principal point of continuing care for patients within a healthcare system.</p>
 
 														</div>
@@ -472,9 +472,9 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-idea"></span></div>
 														<div class="text">
 															<h3>Lab Test</h3>
-											<p>Laboratory screening tests of blood, urine, 
+											<p>Laboratory screening tests of blood, urine,
 											or other body fluids may help doctors diagnose disease, understand disease severity,
-											 and monitor levels of therapeutic drugs. Certain tests, 
+											 and monitor levels of therapeutic drugs. Certain tests,
 											 ordered by the physician as part of a regular check-up, provide general information,
 											  while others are used to identify specific health concerns.
 
@@ -499,7 +499,7 @@
 														<div class="icon mt-2 mr-3 d-flex justify-content-center align-items-center"><span class="flaticon-idea"></span></div>
 														<div class="text">
 															<h3>Heart Rate</h3>
-											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally, 
+											<p>A normal resting heart rate for adults ranges from 60 to 100 beats per minute. Generally,
 											a lower heart rate at rest implies more efficient heart function and better cardiovascular fitness.
 
 </p>
@@ -516,7 +516,7 @@
         </div>
     	</div>
     </section>
-		
+
 		<section class="ftco-section ftco-no-pt">
 			<div class="container">
 				<div class="row justify-content-center mb-5 pb-2">
@@ -525,12 +525,12 @@
             <h2 class="mb-4">Our Qualified Doctors</h2>
             <p>Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</p>
           </div>
-        </div>	
+        </div>
 				<div class="row">
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-1.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(public/images/doc-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Dr. Lloyd Wilson</h3>
@@ -550,7 +550,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-2.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(public/images/doc-2.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Dr. Rachel Parker</h3>
@@ -570,7 +570,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-3.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(public/images/doc-3.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Dr. Ian Smith</h3>
@@ -590,7 +590,7 @@
 					<div class="col-md-6 col-lg-3 ftco-animate">
 						<div class="staff">
 							<div class="img-wrap d-flex align-items-stretch">
-								<div class="img align-self-stretch" style="background-image: url(images/doc-4.jpg);"></div>
+								<div class="img align-self-stretch" style="background-image: url(public/images/doc-4.jpg);"></div>
 							</div>
 							<div class="text pt-3 text-center">
 								<h3>Dr. Alicia Henderson</h3>
@@ -625,7 +625,7 @@
             <div class="carousel-testimony owl-carousel">
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_1.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -639,7 +639,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_2.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_2.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -653,7 +653,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_3.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_3.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -667,13 +667,13 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_4.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_4.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                    <p>I saved a man's life once," said Granny. "Special medicine, twice a day. Boiled water with a bit of berry juice in it. Told him I'd bought it from the dwarves. That's the biggest part of doct'rin, really. Most people'll get 
+                    <p>I saved a man's life once," said Granny. "Special medicine, twice a day. Boiled water with a bit of berry juice in it. Told him I'd bought it from the dwarves. That's the biggest part of doct'rin, really. Most people'll get
 					over most things if they put their minds to it, you just have to give them an interest.</p>
                     <p class="name">Rodel Golez</p>
                     <span class="position">Doctor</span>
@@ -682,7 +682,7 @@
               </div>
               <div class="item">
                 <div class="testimony-wrap d-flex">
-                  <div class="user-img mr-4" style="background-image: url(images/person_1.jpg)">
+                  <div class="user-img mr-4" style="background-image: url(public/images/person_1.jpg)">
                   </div>
                   <div class="text ml-2 bg-light">
                   	<span class="quote d-flex align-items-center justify-content-center">
@@ -785,7 +785,7 @@
 				<div class="row">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url('public/images/image_1.jpg');">
 								<div class="meta-date text-center p-2">
                   <span class="day">23</span>
                   <span class="mos">January</span>
@@ -807,7 +807,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url('public/images/image_2.jpg');">
 								<div class="meta-date text-center p-2">
                   <span class="day">23</span>
                   <span class="mos">January</span>
@@ -829,7 +829,7 @@
           </div>
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+              <a href="blog-single.html" class="block-20" style="background-image: url('public/images/image_3.jpg');">
 								<div class="meta-date text-center p-2">
                   <span class="day">23</span>
                   <span class="mos">January</span>

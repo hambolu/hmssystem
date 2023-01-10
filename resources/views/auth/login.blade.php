@@ -8,24 +8,24 @@
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendorr/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('vendorr/bootstrap/css/bootstrap.min.css')}}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('fonts/font-awesome-4.7.0/css/font-awesome.min.css')}}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('fonts/Linearicons-Free-v1.0.0/icon-font.min.css')}}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendorr/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('vendorr/animate/animate.css')}}">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendorr/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('vendorr/css-hamburgers/hamburgers.min.css')}}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendorr/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('vendorr/animsition/css/animsition.min.css')}}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendorr/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('vendorr/select2/select2.min.css')}}">
 <!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendorr/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('vendorr/daterangepicker/daterangepicker.css')}}">
 <!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="csss/util.css">
-	<link rel="stylesheet" type="text/css" href="csss/main.css">
+	<link rel="stylesheet" type="text/css" href="{{asset('csss/util.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset('csss/main.css')}}">
 <!--===============================================================================================-->
 </head>
 <body>
@@ -96,21 +96,21 @@
 		</div>
 	</div>
 <!--===============================================================================================-->
-	<script src="vendorr/jquery/jquery-3.2.1.min.js"></script>
+	<script src="{{asset('vendorr/jquery/jquery-3.2.1.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script src="vendorr/animsition/js/animsition.min.js"></script>
+	<script src="{{asset('vendorr/animsition/js/animsition.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script src="vendorr/bootstrap/js/popper.js"></script>
-	<script src="vendorr/bootstrap/js/bootstrap.min.js"></script>
+	<script src="{{asset('vendorr/bootstrap/js/popper.js')}}"></script>
+	<script src="{{asset('vendorr/bootstrap/js/bootstrap.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script src="vendorr/select2/select2.min.js"></script>
+	<script src="{{asset('vendorr/select2/select2.min.js')}}"></script>
 <!--===============================================================================================-->
-	<script src="vendorr/daterangepicker/moment.min.js"></script>
-	<script src="vendorr/daterangepicker/daterangepicker.js"></script>
+	<script src="{{asset('vendorr/daterangepicker/moment.min.js')}}"></script>
+	<script src="{{asset('vendorr/daterangepicker/daterangepicker.js')}}"></script>
 <!--===============================================================================================-->
-	<script src="vendorr/countdowntime/countdowntime.js"></script>
+	<script src="{{asset('vendorr/countdowntime/countdowntime.js')}}"></script>
 <!--===============================================================================================-->
-	<script src="jjs/js/main.js"></script>
+	<script src="{{asset('jjs/js/main.js')}}"></script>
 
 </body>
 </html>
