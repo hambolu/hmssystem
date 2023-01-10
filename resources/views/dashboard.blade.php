@@ -68,17 +68,17 @@
                   Invoice
                 </a>
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
-                <i class=" fa fa-plus 	fa-5x"></i>
+                <i class=" fad fa-flask 	fa-5x"></i>
                     <br/><br/>
                   LabTech
                 </a>
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
-                    <i class=" fa fa-plus 	fa-5x"></i>
+                    <i class=" fa fa-desktop 	fa-5x"></i>
                         <br/><br/>
                       FrontDesk
                 </a>
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
-                    <i class=" fa fa-plus 	fa-5x"></i>
+                    <i class=" fas fa-tablets 	fa-5x"></i>
                         <br/><br/>
                         Phamarcy
                 </a>
