@@ -88,7 +88,7 @@ to get the desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-        <img src="/img/{{Auth::user()->avatar}}" alt="profile_picture"  class="img-circle elevation-2">
+        <img src="public/img/{{Auth::user()->avatar}}" alt="{{Auth::user()->name}}"  class="img-circle elevation-2">
 
           <!-- <img src="/dist/img/user2-160x160.jpg"  alt="User Image"> -->
         </div>

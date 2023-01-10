@@ -4,7 +4,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-          
+
             <p >
             <br/>
                 <a href="{{url('admin_doctor_show')}}" class="btn btn-squared-default bg-dark">
@@ -32,14 +32,14 @@
                     <br/><br/>
                   Blood Bank
                 </a>
-                
+
             </p>
         </div>
     </div>
 
     <div class="row">
         <div class="col-lg-12">
-           
+
             <p>
             <a href="{{url('admin_accountant_show')}}" class="btn btn-squared-default bg-dark">
                     <i class="fas fa-money-bill-alt	 fa-5x"></i>
@@ -51,7 +51,7 @@
                     <br/><br/>
                   Payment
                 </a>
-               
+
                 <a href="{{url('admin_bedward_show')}}" class="btn btn-squared-default bg-dark">
                     <i class="fas fa-bed fa-5x"></i>
                     <br/><br/>
@@ -70,17 +70,17 @@
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
                 <i class=" fa fa-plus 	fa-5x"></i>
                     <br/><br/>
-                  Requests
+                  LabTech
                 </a>
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
                     <i class=" fa fa-plus 	fa-5x"></i>
                         <br/><br/>
-                      Requests
+                      FrontDesk
                 </a>
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
                     <i class=" fa fa-plus 	fa-5x"></i>
                         <br/><br/>
-                        Requests
+                        Phamarcy
                 </a>
                 <a href="{{url('new_user_requests')}}" class="btn btn-squared-default bg-dark">
                     <i class=" fa fa-plus 	fa-5x"></i>
@@ -98,9 +98,9 @@
 
     <div class="row">
         <div class="col-lg-12">
-          
+
             <p>
-               
+
             <!-- <a href="#" class="btn btn-squared-default bg-dark">
                     <i class="fa fa-columns	 fa-5x"></i>
                     <br/><br/>
@@ -111,10 +111,10 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-          
+
             <p >
-           
-               
+
+
             </p>
         </div>
     </div>
@@ -138,6 +138,6 @@
             font-weight: 800;
         }
 
-    
+
 </style>
 @endsection
